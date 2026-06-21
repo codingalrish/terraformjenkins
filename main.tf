@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "demo_bucket" {
- bucket = "my-training-bucket-12345"
+ bucket = "jenkins-demo-rishika-2026-001"
 }
 
 output "bucket_name" {
